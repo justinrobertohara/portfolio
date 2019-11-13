@@ -1,0 +1,33 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/index.jsx",
+    "webpack": "webpack -d --watch"
+  },
+  "author": "Justin O'Hara",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^6.26.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^7.1.5",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "semantic-ui": "^2.4.2",
+    "semantic-ui-popup": "^2.3.1",
+    "semantic-ui-transition": "^2.3.1",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "webpack-cli": "^3.3.10"
+  }
+}
