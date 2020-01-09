@@ -13,6 +13,14 @@ module.exports = {
             presets: ['@babel/preset-react']
           }
         }
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.svg$/,
+        loader: 'svg-inline-loader?classPrefix'
       }
     ]
   },
