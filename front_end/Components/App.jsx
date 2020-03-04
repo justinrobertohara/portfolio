@@ -76,7 +76,8 @@ export default class App extends React.Component {
           </Navbar.Collapse>
         </Navbar>
         <Jumbotron style={{ backgroundColor: 'rgba(0, 0, 0, 0)' }}>
-          <h1>About Me</h1>
+          <h1>Justin Robert O'Hara</h1>
+          <h2>About Me</h2>
           <p>
             I am a full-stack software engineer with experience using Node.js,
             React.js, and Javascript. I have a strong background in Javascript
@@ -440,30 +441,40 @@ export default class App extends React.Component {
             </Card>
           </CardColumns>
         </Jumbotron>
-        <Card
-          style={{
-            backgroundColor: 'rgba(0, 0, 0, 0)',
-            border: '1px solid transparent'
-          }}
-          className="text-center p-3"
-        >
-          <Card.Img variant="top" src="https://i.imgflip.com/3o7dx3.gif" />
-          <a href="https://imgflip.com/gif/3o7dx3">
-            <img
-              src="https://i.imgflip.com/3o7dx3.gif"
-              title="made at imgflip.com"
-            />
-          </a>
-          <Card.Body>
-            <Card.Text>Nike Microservice</Card.Text>
-          </Card.Body>
-        </Card>
 
-        <div style={{ width: 660, height: 'auto' }}>
-          <ResponsiveEmbed aspectRatio="16by9">
-            <embed type="image/svg+xml" src="/TheresaKnott_castle.svg" />
-          </ResponsiveEmbed>
-        </div>
+        <Jumbotron style={{ backgroundColor: 'rgba(0, 0, 0, 0)' }}>
+          <h1>Applications</h1>
+
+          <Card
+            style={{
+              backgroundColor: 'rgba(0, 0, 0, 0)',
+              border: '1px solid transparent'
+            }}
+            className="text-center p-3"
+          >
+            <Card.Text>Nike Microservice</Card.Text>
+            <a href="https://imgflip.com/gif/3o7goi">
+              <img
+                src="https://i.imgflip.com/3o7goi.gif"
+                title="made at imgflip.com"
+                // width="200"
+                // height="200"
+              />
+            </a>
+            <Card.Body>
+              Designed a responsive UI with Bootstrap for professional grade
+              responsiveness for a popular shoe brand item page. <br></br>•
+              Deployed microservice and proxy server to AWS EC2 instances{' '}
+              <br></br>• Developed RESTful API endpoints with express in order
+              to streamline communication between different deployed
+              microservices on AWS <br></br>• Implemented TDD using Jest and
+              Enzyme to provide reliable and working software <br></br>•
+              Improved page load speeds by implementing Brotli and GZIP for
+              compression Javascript text files <br></br>• Designed a responsive
+              UI with Bootstrap for professional grade responsiveness
+            </Card.Body>
+          </Card>
+        </Jumbotron>
 
         <Navbar bg="dark" variant="dark" expand="lg">
           <Navbar.Collapse className="justify-content-end">
