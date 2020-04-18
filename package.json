@@ -11,8 +11,8 @@
   "author": "Justin O'Hara",
   "license": "ISC",
   "dependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^6.26.0",
+    "@babel/cli": "",
+    "@babel/core": "",
     "@babel/preset-react": "^7.0.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
