@@ -5,20 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Badge from 'react-bootstrap/Badge';
-import CardDeck from 'react-bootstrap/CardDeck';
-import CardGroup from 'react-bootstrap/CardGroup';
-import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image';
-import CardColumns from 'react-bootstrap/CardColumns';
-import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
-import Media from 'react-bootstrap/Media';
 import Figure from 'react-bootstrap/Figure';
-// import cartoonMe from '../img/cartoonMe.png';
-// import { Player } from 'video-react';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact } from '@fortawesome/free-solid-svg-icons';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -101,17 +88,30 @@ export default class App extends React.Component {
           <Container>
             <h2>About Me</h2>
             <p>
-              I am a full-stack software engineer with experience using Node.js,
-              React.js, and Javascript. I have a strong background in Javascript
-              and my passion for software engineering stems from my curiosity
-              and desire about how different technologies work together to solve
-              everyday problems. My prior experience with React, Node, Express,
-              and PostgresSQL/MongoDM in a team-based environment provides me
-              with the knowledge I need to bring ideas to life. I enjoy learning
-              new technologies and the underlying principles that tie them all
-              together.{' '}
+              <li>
+                I am a full-stack software engineer with experience using
+                Node.js, React.js, and Javascript. I have a strong background in
+                Javascript and my passion for software engineering stems from my
+                curiosity and desire about how different technologies work
+                together to solve everyday problems. My prior experience with
+                React, Node, Express, and PostgresSQL/MongoDM in a team-based
+                environment provides me with the knowledge I need to bring ideas
+                to life. I enjoy learning new technologies and the underlying
+                principles that tie them all together.
+              </li>
+              <br></br>
+              <li>
+                Most recently, as an Associate Instructor of Software
+                Engineering for Hack Reactor @Galvanize. I performed code
+                reviews and debugging sessions with emphasis on engineering best
+                practices via targeted questions that allowed students to lead
+                themselves to the best answer. I also reviewed with students
+                Javascript and Computer Science fundamentals and full-stack web
+                development concepts.
+              </li>
             </p>
           </Container>
+
           <Container>
             <h2>Expertise</h2>
             <Row>
