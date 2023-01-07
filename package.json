@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "babel-core": "^7.0.0-bridge.0",
-    "svg-inline-loader": "^0.8.0",
+    "svg-inline-loader": "^0.8.2",
     "webpack-cli": "^3.3.10"
   }
 }
